@@ -1,0 +1,880 @@
+body,html{
+	margin:0;
+	height: 100%; 
+}
+p{
+	margin:0; 
+}
+section{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+section.sectionstart{
+	animation:setin 1s forwards;
+	-webkit-animation:setin 1s forwards;	
+}
+section.sectionout{
+	animation:setgo 1s forwards;
+	-webkit-animation:setgo 1s forwards ;	
+}
+
+section.sectionHid{ 
+	opacity: .7;
+}
+
+/*page1开始动画*/ 
+section.sectionstart .circel{
+	animation:circel 1s forwards;
+	-webkit-animation:circel 1s forwards;
+}
+section.sectionstart .star{
+	animation:circel 1s forwards;
+	-webkit-animation:circel 1s forwards;
+}
+section.sectionstart .stare{
+	animation:circel 1s forwards;
+	-webkit-animation:circel 1s forwards;
+}
+section.sectionstart .welcometext .rocket{
+	animation:rocket 1s forwards;
+	-webkit-animation:rocket 1s forwards;
+}
+section.sectionstart .welcometext .room{
+	animation:room .5s forwards 1s;
+	-webkit-animation:room .5s forwards 1s;
+}
+section.sectionstart .welcometext .thank{
+	animation:thank 1s forwards;
+	-webkit-animation:thank 1s forwards;
+}
+section.sectionstart .welcometext .have{
+	animation:have 1s forwards;
+	-webkit-animation:have 1s forwards;
+}
+
+/*page1离开动画*/ 
+section.sectionout .circel{
+	animation:leavecircel 1s forwards;
+	-webkit-animation:leavecircel 1s forwards;
+}
+section.sectionout .star{
+	animation:leaveroom 1s forwards;
+	-webkit-animation:leaveroom 1s forwards;
+}
+section.sectionout .stare{
+	animation:leaveroom 1s forwards;
+	-webkit-animation:leaveroom 1s forwards;
+}
+section.sectionout .welcometext .rocket{
+	animation:leaverocket 1s forwards;
+	-webkit-animation:leaverocket 1s forwards;
+}
+section.sectionout .welcometext .room{
+	animation:leaveroom .5s forwards;
+	-webkit-animation:leaveroom .5s forwards;
+}
+section.sectionout .welcometext .thank{
+	animation:leavethank 1s forwards;
+	-webkit-animation:leavethank 1s forwards;
+}
+section.sectionout .welcometext .have{
+	animation:leavehave 1s forwards;
+	-webkit-animation:leavehave 1s forwards;
+}
+
+
+/*page2开始动画*/ 
+section.sectionstart .circelpagetwo{
+	animation:circelpagetwo 1s forwards;
+	-webkit-animation:circelpagetwo 1s forwards;
+}
+section.sectionstart .starpagetwo{
+	animation:starpagetwo 1s forwards .5s;
+	-webkit-animation:starpagetwo 1s forwards .5s;
+}
+section.sectionstart .starpagetwo .human{
+	animation:human .5s forwards 1s;
+	-webkit-animation:human .5s forwards 1s;
+}
+section.sectionstart .starpagetwo .starone{
+	animation:starone .2s forwards 1.2s;
+	-webkit-animation:starone .2s forwards 1.2s;
+}
+section.sectionstart .starpagetwo .startwo{
+	animation:starone .2s forwards 1.3s;
+	-webkit-animation:starone .2s forwards 1.3s;
+}
+section.sectionstart .starpagetwo .starthree{
+	animation:starone .2s forwards 1.4s;
+	-webkit-animation:starone .2s forwards 1.4s;
+}
+section.sectionstart .starpagetwo .starfour{
+	animation:starone .2s forwards 1.5s;
+	-webkit-animation:starone .2s forwards 1.5s;
+}
+section.sectionstart .rocketpagetwo{
+	animation:rocketpagetwo .3s forwards 1.8s;
+	-webkit-animation:rocketpagetwo .3s forwards 1.8s;
+}
+section.sectionstart .towerpagetwo{
+	animation:rocketpagetwo .3s forwards 2s;
+	-webkit-animation:rocketpagetwo .3s forwards 2s;
+}
+section.sectionstart .starpagetwo .text{
+	animation:texttwo .5s forwards 2.3s;
+	-webkit-animation:texttwo .5s forwards 2.3s;
+}
+section.sectionstart .textpagetwo{
+	animation:starone .5s forwards 2.8s;
+	-webkit-animation:starone .5s forwards 2.8s;
+}
+
+/*page2离开动画*/ 
+section.sectionout .circelpagetwo,section.sectionout .rocketpagetwo,section.sectionout .towerpagetwo, section.sectionout .starpagetwo .starone, section.sectionout .starpagetwo .startwo, section.sectionout .starpagetwo .starthree, section.sectionout .starpagetwo .starfour{
+	animation:leavecircelpagetwo 1s forwards;
+	-webkit-animation:leavecircelpagetwo 1s forwards;
+}
+section.sectionout .starpagetwo{
+	animation:leavestarpagetwo 1s forwards;
+	-webkit-animation:leavestarpagetwo 1s forwards;
+}
+section.sectionout .starpagetwo .human{
+	animation:leavehuman 1s forwards;
+	-webkit-animation:leavehuman 1s forwards;
+}
+
+section.sectionout .starpagetwo .text{
+	animation:leavetexttwo 1s forwards;
+	-webkit-animation:leavetexttwo 1s forwards;
+}
+section.sectionout .textpagetwo{
+	animation:leavecircelpagetwo 1s forwards;
+	-webkit-animation:leavecircelpagetwo 1s forwards;
+}
+
+/*page3进场动画*/ 
+
+section.sectionstart .circelpagethree{
+	animation:circelpagethree 1s forwards;
+	-webkit-animation:circelpagethree 1s forwards;
+}
+section.sectionstart .starpagethree{
+	animation:starpagethree .5s forwards;
+	-webkit-animation:starpagethree .5s forwards;
+}
+section.sectionstart .starpagethree .humanfive{
+	animation:huamnpagethree .5s forwards .5s;
+	-webkit-animation:huamnpagethree .5s forwards .5s;
+}
+section.sectionstart .starpagethree .humantwo{
+	animation:huamnpagethree .5s forwards .7s;
+	-webkit-animation:huamnpagethree .5s forwards .7s;
+}
+section.sectionstart .starpagethree .humanone{
+	animation:huamnpagethree .5s forwards .9s;
+	-webkit-animation:huamnpagethree .5s forwards .9s;
+}
+section.sectionstart .starpagethree .humanthree{
+	animation:huamnpagethree .5s forwards 1.1s;
+	-webkit-animation:huamnpagethree .5s forwards 1.1s;
+}
+section.sectionstart .starpagethree .humanfour{
+	animation:huamnpagethree .5s forwards 1.3s;
+	-webkit-animation:huamnpagethree .5s forwards 1.3s;
+}
+section.sectionstart .mask, section.sectionstart .smorkone, section.sectionstart .smorktwo, section.sectionstart .smorkrocket, section.sectionstart .starpagethree .meteor{
+	animation:starpagethree 1s forwards 1.3s;
+	-webkit-animation:starpagethree 1s forwards 1.3s;
+}
+section.sectionstart .starpagethree .tip{
+	animation:starpagethree 1s forwards 1.7s;
+	-webkit-animation:starpagethree 1s forwards 1.7s;
+}
+section.sectionstart .textpagethree{
+	animation:starpagethree 1s forwards 2s;
+	-webkit-animation:starpagethree 1s forwards 2s;
+}
+
+
+/*page3离场动画*/ 
+
+section.sectionout .circelpagethree, 
+section.sectionout .starpagethree,
+section.sectionout .starpagethree .humanone,
+section.sectionout .starpagethree .humantwo,
+section.sectionout .starpagethree .humanthree,
+section.sectionout .starpagethree .humanfour,
+section.sectionout .starpagethree .humanfive,
+section.sectionout .starpagethree .tip,
+section.sectionout .starpagethree .meteor,
+section.sectionout .mask,
+section.sectionout .textpagethree
+{
+	animation:leavecircelpagethree .5s forwards;
+	-webkit-animation:leavecircelpagethree .5s forwards;
+}
+section.sectionout .smorkone,
+section.sectionout .smorktwo
+{
+	animation:leavecircelpagethree .1s forwards;
+	-webkit-animation:leavecircelpagethree .1s forwards;
+}
+section.sectionout .smorkrocket{
+	animation:leavesmorkrocket 1s forwards;
+	-webkit-animation:leavesmorkrocket 1s forwards;
+}
+
+
+/*第四页面进入动画*/ 
+section.sectionstart .circelpagefour, 
+section.sectionstart .starpagefour,
+section.sectionstart .starpagefour .pagefoursmockone, 
+section.sectionstart .starpagefour .pagefoursmocktwo, 
+section.sectionstart .starpagefour .pagefourrocket, 
+section.sectionstart .starpagefour .pagefourbtn,
+section.sectionstart .starpagefour .textpagefour
+{
+	animation:pagefour 1s forwards .3s;
+	-webkit-animation:pagefour 1s forwards .3s;
+}
+/*第四页面离场动画*/ 
+section.sectionout .circelpagefour, 
+section.sectionout .starpagefour,
+section.sectionout .starpagefour .pagefoursmockone, 
+section.sectionout .starpagefour .pagefoursmocktwo, 
+section.sectionout .starpagefour .pagefourrocket, 
+section.sectionout .starpagefour .pagefourbtn,
+section.sectionout .starpagefour .textpagefour
+{
+	animation:leavepagefour 1s forwards ;
+	-webkit-animation:leavepagefour 1s forwards ;
+}
+
+
+
+
+#wrap{
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.page:nth-of-type(1){
+	background-color: #2d4081;
+}
+.page:nth-of-type(2){
+	background-color: #5f4ac3;
+}
+.page:nth-of-type(3){
+	background-color: #243367;
+}
+.page:nth-of-type(4){
+	background-color: #243367;
+}
+
+.circel{
+	width: 10.725rem;
+	height: 10.725rem;
+	background-color: #233264;
+	border: 1px dotted #000;
+	position: absolute;
+	border-radius: 50%;
+	left: 2.625rem;
+	top: 30%;
+	opacity: 0;
+	box-shadow: 0px 0px 0px 2.875rem #26376f,0px 0px 0px 2.9rem #1c2a56,0px 0px 0px 4.875rem #2a3d79,0px 0px 0px 4.9rem #25376f,0px 0px 0px 6.375rem #2c3f7e, 0px 0px 0px 6.4rem #283a75;
+}
+.star{
+	width: 100%;
+	height: 100%;
+	background: url('../images/starSmall.png') no-repeat;
+	background-size:cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.stare{
+	width: 14.9rem;
+	height: 10.825rem;
+	background: url('../images/starLine.png') no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	left: 0.55rem;
+	top: 30%;
+	opacity: 0;
+}
+.welcometext{
+	width: 10rem;
+	height: 9.25rem;
+	position: absolute;
+	top: 29%;
+	left: 3.575rem;
+}
+.welcometext img{
+	width: 100%;
+	vertical-align: top;
+	border:0; 
+}
+.welcometext .rocket{
+	width: 4.1rem;
+	height: 4.825rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.25rem;
+	opacity: 0;
+}
+.welcometext .room{
+	width: 4.825rem; 
+	height: 2.05rem;
+	position: absolute;
+	top: 0.55rem;
+	left: 4.275rem;
+	opacity: 0;
+}
+.welcometext .thank{
+	width: 10rem;
+	height: 7.5rem;
+	position: absolute;
+	top: 1.8rem;
+	opacity: 0;
+}
+.welcometext .have{
+	width: 9.1rem;
+	height: 3.35rem;
+	position: absolute;
+	top: 5.9rem;
+	opacity: 0;
+}
+.toUp{
+	width: 2.25rem;
+	height: 1.625rem;
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	margin-left: -1.125rem;
+	z-index: 999;
+	background: url('../images/arrow2.png') no-repeat;
+	background-size: 100% 100%;
+	animation:toup 2s infinite;
+	-webkit-animation:toup 2s infinite;
+}
+.music{
+	width:1.25rem;
+	height: 1.175rem;
+	background: url('../images/run.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 0.25rem;
+	z-index: 999;
+	animation:tomusic 5s infinite;
+	-webkit-animation:tomusic 5s infinite linear;
+}
+.musicstop{
+	width:1.25rem;
+	height: 1.175rem;
+	background: url('../images/stop.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 0.25rem;
+	z-index: 999;
+}
+
+/*第二个页面*/ 
+.circelpagetwo{
+	width: 10.725rem;
+	height: 10.725rem;
+	border:1px dotted #43348c;
+	background: #4a3a98;
+	position: absolute;
+	left: 2.625rem;
+	top: 60%;
+	box-shadow: 0px 0px 0px 2.875rem #5442ad, 0px 0px 0px 2.9rem #4c3b9d, 0px 0px 0px 4.875rem #5946b8, 0px 0px 0px 4.9rem #5442ae, 0px 0px 0px 6.3754em #5d49bf, 0px 0px 0px 6.4rem #523fad;
+	border-radius:50%;
+	opacity: 0;
+}
+.starpagetwo{
+	width: 100%;
+	height: 5.35rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background:url('../images/planet.png') no-repeat;
+	background-size: 100% 100%;
+	z-index: 10;
+	opacity: 0;
+}
+.starpagetwo .starone{
+	width: 1.6rem;
+	height: 1.6rem;
+	background: url('../images/planet2.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -19.5rem;
+	left: 1.875rem;
+	opacity: 0;
+}
+.starpagetwo .startwo{
+	width: 1.075rem;
+	height: 1.075rem;
+	background: url('../images/planet3.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -16.1rem;
+	left: 7.975rem;
+	opacity: 0;
+}
+.starpagetwo .starthree{
+	width: 2.425rem;
+	height: 2.425rem;
+	background: url('../images/sun.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -10.725rem;
+	left: 9.525rem;
+	opacity: 0;
+}
+.starpagetwo .starfour{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../images/planet4.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -3.875rem;
+	left: 10.725rem;
+	opacity: 0;
+}
+.starpagetwo .human{
+	width: 9.125rem;
+	height: 11.125rem;
+	background: url('../images/human.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -9.65rem;
+	left: 3.35rem;
+	opacity: 0;
+}
+.starpagetwo .text{
+	width:5.55rem;
+	height: 3.9rem;
+	background: url('../images/pirate.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;;
+	top: -12.3rem;
+	left: 1.1rem;
+	opacity: 0;
+}
+.towerpagetwo{
+	width: 2.45rem;
+	height: 2.875rem;
+	background: url('../images/lighthouse.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 4.625rem;
+	left: 3.475rem; 
+	opacity: 0;
+}
+.rocketpagetwo{
+	width: 2.575rem;
+	height: 5.375rem;
+	background: url('../images/rocket2.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 3.725rem;
+	left: 10.5rem; 
+	opacity: 0;
+}
+.textpagetwo{
+	width:10.65rem;
+	height: 2.525rem;
+	position: absolute;
+	top: 10%;
+	left: 3.025rem;
+	background:url('../images/text1.png') no-repeat;
+	background-size:100% 100%; 
+	opacity: 0;
+}
+
+/*第三个页面*/ 
+.circelpagethree{
+	width: 9.225rem;
+	height: 9.225rem;
+	border:1px dotted #1a2449;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	left: 3.275rem;
+	bottom: 0px;
+	box-shadow: 0px 0px 0px 2.875rem #202d5b, 0px 0px 0px 2.9rem #1e2953, 0px 0px 0px 4.875rem #223061, 0px 0px 0px 4.9rem #1e2b57, 0px 0px 0px 6.375rem #233265, 0px 0px 0px 6.4rem #212f60;
+	border-radius: 50%;
+	opacity: 0
+}
+.mask{
+	width: 14.9rem;
+	height: 10.825rem;
+	background: url('../images/starLine.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0.275rem;
+	opacity: 0
+}
+.smorkone{
+	width: 3.675rem;
+	height: 5.75rem;
+	position: absolute;
+	bottom: 4.375rem;
+	left: 6.2rem;
+	background: url('../images/smork2.png') no-repeat;
+	background-size: 100% 100%;
+	opacity: 0
+}
+.smorktwo{
+	width: 9.1rem;
+	height: 3.075rem;
+	position: absolute;
+	bottom: 3.05rem;
+	left: 4.05rem;
+	background: url('../images/smork.png') no-repeat;
+	background-size: 100% 100%;
+	opacity: 0
+}
+.smorkrocket{
+	width: 2.95rem;
+	height: 7.35rem;
+	position: absolute;
+	bottom: 8.05rem;
+	left: 6.525rem;
+	background: url('../images/rocket3.png') no-repeat;
+	background-size: 100% 100%;
+	opacity: 0
+}
+.starpagethree{
+	width: 100%;
+	height: 4.775rem;
+	background: url('../images/planet5.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0
+}
+.starpagethree .humanone{
+	width: 1.75rem;
+	height: 4.45rem;
+	background: url('../images/human2.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -4.05rem;
+	left: 7.075rem;
+	opacity: 0
+}
+.starpagethree .humantwo{
+	width: 1.85rem;
+	height: 4.3rem;
+	background: url('../images/human3.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -3.7rem;
+	left: 4.35rem;
+	opacity: 0
+}
+.starpagethree .humanthree{
+	width: 1.975rem;
+	height: 3.925rem;
+	background: url('../images/human5.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -3.3rem;
+	left: 9.875rem;
+	opacity: 0
+}
+.starpagethree .humanfour{
+	width: 2.225rem;
+	height: 3.925rem;
+	background: url('../images/human6.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -2.75rem;
+	left: 12.45rem;
+	opacity: 0
+}
+.starpagethree .humanfive{
+	width: 2.35rem;
+	height: 4.2rem;
+	background: url('../images/human4.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -3rem;
+	left: 1.25rem;
+	opacity: 0
+}
+.starpagethree .tip{
+	width: 4.1rem;
+	height: 2.875rem;
+	background: url('../images/pirate2.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -6.9rem;
+	opacity: 0
+}
+.starpagethree .meteor{
+	width:4.725rem;
+	height: 3.575rem;
+	background: url('../images/start.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -16.425rem;
+	left: 2.5rem;
+	opacity: 0
+}
+.textpagethree{
+	width: 14.35rem;
+	height: 2.525rem;
+	background: url('../images/text2.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 16%;
+	left: 0.85rem;
+	opacity: 0
+}
+
+/*第四个页面*/ 
+.circelpagefour{
+	width:9.225rem;
+	height: 9.225rem;
+	background: rgba(0, 0, 0, 0);
+	border: 1px dotted #1a2449;
+	position: absolute;
+	left: 3.275rem;
+	top:30%;
+	box-shadow: 0px 0px 0px 2.875rem #202d5b, 0px 0px 0px 2.9rem #1e2953, 0px 0px 0px 4.875rem #223061, 0px 0px 0px 4.9rem #1e2b57, 0px 0px 0px 6.375rem #233265, 0px 0px 0px 6.4rem #212f60;
+	border-radius: 50%;
+	opacity: 0;
+}
+.starpagefour{
+	width: 9.225rem;
+	height: 9.225rem;
+	background:url('../images/starotund.png') no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	top: 30%;
+	left: 3.275rem;
+	opacity: 0;
+}
+.starpagefour .pagefoursmockone{
+	width: 2.85rem;
+	height: 3.85rem;
+	background: url('../images/smork4.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 3.725rem;
+	left: 3.075rem;
+	opacity: 0;
+}
+.starpagefour .pagefoursmocktwo{
+	width: 9.1rem;
+	height: 4.35rem;
+	background: url('../images/smork3.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 4.8rem;
+	left: 0.075rem;
+	opacity: 0;
+}
+.starpagefour .pagefourrocket{
+	width: 3.3rem;
+	height: 8.575rem;
+	background: url('../images/rocket3.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -2.2rem;
+	left: 3rem;
+	opacity: 0;
+}
+.starpagefour .pagefourbtn{
+	width: 5.875rem;
+	height: 1.65rem;
+	line-height: 1.65rem;
+	background: #fd5a71;
+	position: absolute;
+	top: 6.05rem;
+	left: 1.65rem;
+	color: #fff;
+	border:2px solid #393e51;
+	border-radius: 15px;
+	font-size: 0.75rem;
+	font-family: '微软雅黑';
+	text-align: center;
+	opacity: 0;
+}
+
+.starpagefour .textpagefour{
+	width: 10.625rem;
+	height: 1.025rem;
+	background:url('../images/text3.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 12.05rem;
+	left: -0.475rem;
+}
+
+
+/*游戏*/ 
+
+.game{
+	background:#2d4081;
+}
+.gamecircel{
+	width: 10.725rem;
+	height: 10.725rem;
+	background-color: #233264;
+	border: 1px dotted #000;
+	position: absolute;
+	border-radius: 50%;
+	left: 2.625rem;
+	top: 30%;
+	box-shadow: 0px 0px 0px 2.875rem #26376f,0px 0px 0px 2.9rem #1c2a56,0px 0px 0px 4.875rem #2a3d79,0px 0px 0px 4.9rem #25376f,0px 0px 0px 6.375rem #2c3f7e, 0px 0px 0px 6.4rem #283a75;
+}
+.gamestart{
+	width: 100%;
+	height: 100%;
+	background:url('../images/star_bg.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	bottom: 0; 
+}
+.gamefoot{
+	width: 100%;
+	height: 1.825rem;
+	background:rgba(0,0,0,.4);
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+}
+.gamefoot .score{
+	width: 6.575rem;
+	height: 100%;
+	float: left;
+	background: url('../images/monster4.png') no-repeat;
+	background-size: 1.5rem 1.3rem;
+	background-position:0.55rem 0.4rem; 
+	text-indent: 2.2rem;
+	color: #55b9f8;
+	line-height: 1.825rem;
+	font-size: 0.75rem;
+}
+.gamefoot .time{
+	width: 3.75rem;
+	height: 100%;
+	float: left;
+	background: url('../images/time.png') no-repeat left center;
+	background-size: 1.1rem 1.2rem;
+	text-indent: 1.425rem;
+	line-height: 1.825rem;
+	font-size: 0.75rem;
+	color: #ffe400;
+}
+#gamecanvas{
+	position: absolute;
+}
+.shake{
+	animation:shake 1s forwards;
+}
+.drop{
+	width: 10.625rem;
+	height: 12.225rem;
+	position: absolute;
+	left: 50%;
+	top:20%;
+	margin-left: -5.3125rem;
+	background: url('../images/alert.png') no-repeat;
+	background-size: cover;
+	z-index:10;
+}
+.drop1{
+	width: 10.625rem;
+	height: 12.225rem;
+	position: absolute;
+	left: 50%;
+	top:20%;
+	margin-left: -5.3125rem;
+	background: url('../images/alert.png') no-repeat;
+	background-size: cover;
+	z-index:10;
+	display: none;
+}
+
+.drop .gameruder{
+	padding: 5.5rem 2rem 0;
+	color: #fff;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+}
+.stargamep{
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+.stargame{
+	width: 5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	background: #fff;
+	color: #ec636d;
+	border:2px solid #c5212d;
+	box-shadow: 3px 3px 5px 0px rgba(197, 33, 48, 0.8);
+	border-radius:6px;
+	font-size:0.75rem;
+}
+.starshare{
+	width: 5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	background: #fff;
+	color: #ec636d;
+	border:2px solid #c5212d;
+	box-shadow: 3px 3px 5px 0px rgba(197, 33, 48, 0.8);
+	border-radius:6px;
+	font-size:0.75rem;
+}
+.hiddentip{
+	display: none;
+}
+.showtip{
+	display: block;
+}
+.repeatgame{
+	width: 5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	background: #fff;
+	color: #ec636d;
+	border:2px solid #c5212d;
+	box-shadow: 3px 3px 5px 0px rgba(197, 33, 48, 0.8);
+	border-radius:6px;
+	font-size:0.75rem;
+}
+.drop1 .thisscore{
+	color:#fff;
+	width: 100%;
+	height: 1.5rem;
+	line-height: 0.85rem;
+	padding-top: 6rem;
+	text-align: center;
+	overflow: hidden;
+	font-size: 0.75rem;
+}

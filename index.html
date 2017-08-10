@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>作品</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/move.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+	<article id="wrap">
+	<!-- 第一屏幕 -->
+		<section class="page sectionstart">
+			<div class="circel"></div>
+			<div class="star"></div>
+			<div class="stare"></div>
+			<div class="welcometext">
+				<div class="rocket">
+					<img src="images/rocket.png" alt="">
+				</div>
+				<div class="room">
+					<img src="images/miaov.png" alt="">
+				</div>
+				<div class="thank">
+					<img src="images/thanks.png" alt="">
+				</div>
+				<div class="have">
+					<img src="images/widthyou.png" alt="">
+				</div>
+			</div>
+		</section>	
+		<!-- 第二屏幕 -->
+		<section class="page sectionhidden">
+			<div class="circelpagetwo"></div>
+			<div class="rocketpagetwo"></div>
+			<div class="towerpagetwo"></div>
+			<div class="starpagetwo">
+				<div class="human"></div>
+				<div class="starone"></div>
+				<div class="startwo"></div>
+				<div class="starthree"></div>
+				<div class="starfour"></div>	
+				<div class="text"></div>	
+			</div>
+			<div class="textpagetwo"></div>
+		</section>
+		<!-- 第三屏幕 -->
+		<section class="page sectionhidden">
+			<div class="circelpagethree"></div>
+			<div class="mask"></div>
+			<div class="smorkone"></div>
+			<div class="smorktwo"></div>
+			<div class="smorkrocket"></div>
+			<div class="starpagethree">
+				<div class="humanone"></div>
+				<div class="humantwo"></div>
+				<div class="humanthree"></div>
+				<div class="humanfour"></div>
+				<div class="humanfive"></div>
+				<div class="tip"></div>
+				<div class="meteor"></div>
+			</div>
+			<div class="textpagethree"></div>
+		</section>
+		<!-- 第四屏幕 -->
+		<section class="page sectionhidden">
+			<div class="circelpagefour"></div>
+			<div class="starpagefour">
+				<div class="pagefoursmockone"></div>
+				<div class="pagefoursmocktwo"></div>
+				<div class="pagefourrocket"></div>
+				<button class="pagefourbtn">开始游戏</button>
+				<div class="textpagefour"></div>
+			</div>
+		</section>
+		<!-- 向上箭头 -->
+		<div class="toUp"></div>
+		<!-- 音乐 -->
+		<div class="music">
+			<audio  loop preload="auto" autoplay="true" src="video/bg.mp3">
+			</audio>
+		</div>
+	</article>
+<script type="text/javascript" src="js/m.touch.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- 控制动画 -->
+<script>
+// 预加载
+	loading();
+// 页面切换
+	change();
+// 音乐播放
+	musicplay();
+// 进入游戏
+	playgame();
+</script>
+</body>
+</html>

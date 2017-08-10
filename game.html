@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>作品</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/move.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body style="background:#2d4081; ">
+	<article id="wrap">
+		<section class="game">
+			<div class="gamecircel"></div>
+			<div class="gamestart"></div>
+			<!-- canvas游戏 -->
+			<canvas id="gamecanvas" style="position: absolute;z-index: 9;">
+				
+			</canvas>
+			<!-- 提示框1 -->
+			<div class="drop">
+				<p class="gameruder">
+					<b>-游戏规则-</b><br>
+					当小怪物飞出来时，翘起你的手指，瞄准后按死“盗版小怪物”们！一定要按准哦……
+				</p>
+				<p class="stargamep"><button class="stargame">开始游戏</button></p>
+			</div>
+			<!-- 提示框2 -->
+			<div class="drop1">
+				<p class="thisscore"></p>
+				<p class="stargamep"><button class="repeatgame">再来一次</button></p>
+			</div>
+			<!-- 底部 -->
+			<div class="gamefoot">
+				<div class="score"></div>
+				<div class="time"></div>
+				<div class="music">
+					<audio loop autoplay="true" preload="auto" src="video/music.mp3">
+				</audio>
+		</div>
+			</div>
+		</section>	
+	</article>
+
+<script type="text/javascript" src="js/m.touch.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/jCanvaScript.1.5.18.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+// 音乐播放
+	musicplay();
+	var page = new gamepage();
+// 开始游戏
+	startgame();
+	repeatgame();
+</script>
+</body>
+</html>
